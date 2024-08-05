@@ -1,18 +1,19 @@
+/* General Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
     text-decoration: none;
-    list-style-type: none 
+    list-style-type: none;
 }
 
 body {
     color: #e3f1ff;
     background-color: #1d1d1d;
-
 }
 
+/* Container */
 .container {
     display: flex;
     flex-direction: column;
@@ -21,6 +22,7 @@ body {
     margin: 0 auto; 
 }
 
+/* Foto Raphael */
 .foto_raphael {
     height: 150px;
     width: 150px;
@@ -28,10 +30,22 @@ body {
     align-self: center;
     margin-bottom: 30px;
     margin-top: 50px;
+    transition: transform 0.3s ease;
 }
 
+.foto_raphael:hover {
+    transform: scale(1.1); /* Enlarge image on hover */
+}
+
+/* Header */
 header h1 {
     margin-bottom: 15px;
+    transition: text-shadow 0.3s ease;
+}
+
+header h1:hover {
+    text-shadow: 1px 1px 3px #49eaff; /* Add shadow on hover */
+    transition: 1s;
 }
 
 header h3 {
@@ -43,6 +57,7 @@ header h4 {
     margin-bottom: 35px;
 }
 
+/* Redes Sociais */
 .redes_sociais {
     display: flex;
     gap: 50px;
@@ -50,15 +65,28 @@ header h4 {
     margin-bottom: 55px;
 }
 
+.redes_social_links img {
+    transition: filter 0.3s ease;
+}
+
+.redes_social_links img:hover {
+    filter: brightness(0) saturate(100%) invert(38%) sepia(89%) saturate(2168%) hue-rotate(187deg) brightness(95%) contrast(99%);
+    /* Change color to blue on hover */
+}
+
+/* Projects */
 .projects {
     display: flex;
-    color: white;
-    margin-bottom: 38px;
-    background-color: #7e7e7e;
+    color: #e3e3e3;
+    background: linear-gradient(135deg, #1d1d1d, #2e2e2e, #3f3f3f);
     margin: 0 auto;
     padding: 30px 15%;
     margin-bottom: 25px;
-    background-color: rgb(236, 243, 140);
+    color: #ecf38c;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s forwards;
+    animation-delay: 0.5s;
 }
 
 .projects img {
@@ -76,19 +104,21 @@ header h4 {
     display: flex;
     max-width: 100%;
     align-items: center;
-    color: black;
+    color: #e3e3e3;
 }
 
 .project h1 {
+    color: rgb(236, 243, 140);
     display: flex;
     max-width: 100%;
     font-size: 26px;
 }
 
-.project-description h1, p{
+.project-description h1, p {
     text-align: left;
     margin-right: 150px;    
 }
+
 
 #title-section-project {
     text-align: center;
@@ -97,8 +127,27 @@ header h4 {
     color: rgb(241, 241, 241);
     text-transform: uppercase;
     font-size: 28px;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
 }
 
+/* Keyframes */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
+.button {
+    padding: 10px 20px;
+    background-color: #3f3f3f;
+    border: none;
+    color: #f5f5f5;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
 
-
+.button:hover {
+    transform: scale(1.05);
+}
