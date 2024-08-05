@@ -200,7 +200,10 @@ header h4 {
 .project-description p {
     text-align: left;
     font-size: 14px;
-    margin-right: 100px;
+}
+
+.project-description {
+    margin-right: 300px;
 }
 
 @media(max-width:1000px) {
@@ -221,8 +224,8 @@ header h4 {
         text-align: left;
         margin-right: 0;
         max-width: 100%;
+        padding-right: 0;
     }
-
 
     .project-description {
         max-width: 100%;
@@ -237,7 +240,35 @@ header h4 {
 
     .project-description p {
         font-size: 14px;
+        padding-right: 0;
     }
+
+    .projects img {
+        height: 200px;
+        width: 300px;
+    }
+
+    .project-description {
+        margin-right: 50px;
+    }
+}
+
+@media(max-width:1520px) {
+
+    .project-description h1 {
+        font-size: 20px;
+    }
+
+    .project-description p {
+        font-size: 14px;
+        padding-right: 0;
+    }
+
+    .project-description {
+        margin-right: 100px;
+    }
+
+
 }
 
 
