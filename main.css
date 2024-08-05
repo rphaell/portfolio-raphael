@@ -34,7 +34,7 @@ body {
     border-radius: 50%;
     align-self: center;
     margin-bottom: 30px;
-    margin-top: 100px;
+    margin-top: 10px;
     transition: transform 0.3s ease;
 }
 
@@ -111,6 +111,7 @@ header h4 {
 .projects h1 {
     margin-bottom: 20px;
     font-size: 38px;
+    width: 500px;
 }
 
 .projects h1:hover {
@@ -186,7 +187,7 @@ header h4 {
     color: #ffffff;
     cursor: pointer;
     transition: transform 0.3s ease;
-    text-transform: uppercase;
+    border-radius: 3px;
 }
 
 .button a{    
@@ -216,6 +217,41 @@ header h4 {
     font-size: 13px;
     margin-right: 10px;
     font-weight: bold;
+    border-radius: 5px
 
 }
+
+.cv {
+    padding: 16px;
+}
+
+.cv-button {
+    padding: 10px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.footer {
+    padding: 20px;
+    background-color: #000000;
+    color: #b9b9b9;
+}
+
+.footer p {
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+}
+
+#whatsapp-icon {
+    height: 24px;
+    width: 24px;
+}
+
+
+
 
