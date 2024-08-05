@@ -113,6 +113,13 @@ header h4 {
     font-size: 38px;
 }
 
+.projects h1:hover {
+    filter: brightness(0) saturate(100%) invert(38%) sepia(89%) saturate(2168%) hue-rotate(187deg) brightness(95%) contrast(99%);
+    /* Change color to blue on hover */
+    transition: filter 1s ease;
+    cursor: pointer;
+}
+
 .project {
     display: flex;
     max-width: 100%;
@@ -146,6 +153,8 @@ header h4 {
     animation-delay: 0.5s;
     font-weight: bold;
 }
+
+
 
 #arrow-down {
     opacity: 0;
