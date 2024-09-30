@@ -21,7 +21,8 @@ body {
 /* Container */
 
 header.container {
-    background-color: rgb(29, 28, 28);
+    background-color: rgb(15, 15, 15);
+    color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -100,6 +101,7 @@ header h4 {
     transform: translateY(20px);
     animation: fadeIn 2s forwards;
     animation-delay: 0.5s;
+    
 }
 
 .redes_social_links img {
@@ -109,6 +111,7 @@ header h4 {
 .redes_social_links img:hover {
     filter: brightness(0) saturate(100%) invert(38%) sepia(89%) saturate(2168%) hue-rotate(187deg) brightness(95%) contrast(99%);
     /* Change color to blue on hover */
+    
 }
 
 /* Projects */
