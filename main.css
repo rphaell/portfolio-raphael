@@ -24,8 +24,6 @@ body {
     width: 50px;
     margin-bottom: 20px;
     margin-top: 10px;
-
-
 }
 
 header.container {
@@ -109,7 +107,6 @@ header h4 {
     transform: translateY(20px);
     animation: fadeIn 2s forwards;
     animation-delay: 0.5s;
-    
 }
 
 .redes_social_links img {
@@ -119,7 +116,6 @@ header h4 {
 .redes_social_links img:hover {
     filter: brightness(0) saturate(100%) invert(38%) sepia(89%) saturate(2168%) hue-rotate(187deg) brightness(95%) contrast(99%);
     /* Change color to blue on hover */
-    
 }
 
 /* Projects */
@@ -306,13 +302,12 @@ header h4 {
     }
 
     .project-description h1 {
-        text-align: left;
+        text-align: center; /* Ensure the title is centered */
         margin-right: 0;
         font-size: 60px;
     }
 
     .project-description p {
-        text-align: left;
         margin-right: 0;
         max-width: 100%;
         padding-right: 0;
@@ -320,6 +315,8 @@ header h4 {
 
     .project-description {
         max-width: 100%;
+        margin-left: auto;  /* Center the description */
+        margin-right: auto; /* Center the description */
     }
 
     .buttons {
@@ -343,17 +340,19 @@ header h4 {
 
     .project-description p {
         font-size: 14px;
-        padding-right: 0;
     }
 
     .project-description {
         margin-right: 50px;
+        margin-left: auto;  /* Center the description */
+        margin-right: auto; /* Center the description */
     }
 }
 
 @media(max-width: 1520px) {
     .project-description h1 {
         font-size: 20px;
+        text-align: center; /* Ensure the title is centered */
     }
 
     .project-description p {
@@ -363,5 +362,7 @@ header h4 {
 
     .project-description {
         margin-right: 100px;
+        margin-left: auto;  /* Center the description */
+        margin-right: auto; /* Center the description */
     }
 }
