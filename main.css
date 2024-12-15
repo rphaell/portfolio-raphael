@@ -195,6 +195,32 @@ header h4 {
     font-weight: bold;
 }
 
+#title-section-project-cloud {
+    text-align: center;
+    margin: 30px 0;
+    color: rgb(241, 241, 241);
+    text-transform: uppercase;
+    font-size: 28px;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeIn 2s forwards;
+    animation-delay: 0.5s;
+    font-weight: bold;
+}
+
+#title-section-project-dev {
+    text-align: center;
+    margin: 30px 0;
+    color: rgb(241, 241, 241);
+    text-transform: uppercase;
+    font-size: 28px;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeIn 2s forwards;
+    animation-delay: 0.5s;
+    font-weight: bold;
+}
+
 #arrow-down {
     opacity: 0;
     transform: translateY(100px);

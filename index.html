@@ -15,38 +15,55 @@
 
 <body>
     <header class="container">
-        <div class="cv">
-        <a href="./images/CV – Raphael.Almeida.pdf" target="_blank"><button class="cv-button">Download CV</button></a><br>
+        <div class="cv" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+            <!-- Left Section: Download CV -->
+            <a href="./images/CV – Raphael.Almeida.pdf" target="_blank">
+                <button class="cv-button" style="font-size: 25px; padding: 4px;">Download CV</button>
+            </a>
+            
+            <!-- Right Section: Other Links -->
+            <div style="display: flex; gap: 10px;">
+                <a href="#title-section-project-cloud" target="_self">
+                    <button class="cv-button" style="font-size: 12px; padding: 4px; font-weight: bold;">Projetos Cloud</button>
+                </a>
+                <a href="#title-section-project-dev" target="_self">
+                    <button class="cv-button" style="font-size: 12px; padding: 4px; font-weight: bold;">Projetos Desenvolvimento Web</button>
+                </a>
+            </div>
         </div>
         <img class="foto_raphael" src="images/projetos/yo.jpg" alt="">
         <div>
             <h1>Raphael Almeida</h1>
             <a href="" target="_blank"><img id="cloud-icon" src="./images/cloud-network.png" alt=""></a>
-            <h3>Analista Cloud Jr</h3>
-            
-            
+            <h3>Analista Cloud Jr</h3>             
         </div>
         <div class="container">
             <ul class="redes_sociais">
                 <li class="redes_social_links">
-                    <a href="https://www.linkedin.com/in/raphael-web/" target="_blank"><img src="images/linkedin.svg" alt=""></a>
+                    <a href="https://www.linkedin.com/in/raphael-web/" target="_blank">
+                        <img src="images/linkedin.svg" alt="">
+                    </a>
                 </li>
                 <li class="redes_social_links">
-                    <a href="https://github.com/rphaell" target="_blank"><img src="images/github.svg" alt=""></a>
+                    <a href="https://github.com/rphaell" target="_blank">
+                        <img src="images/github.svg" alt="">
+                    </a>
                 </li>
                 <li class="redes_social_links">
-                    <a href="mailto:phael92br@gmail.com?subject=Assunto%20do%20Email&body=Corpo%20da%20mensagem" target="_blank"><img src="images/mail.svg" alt=""></a>
+                    <a href="mailto:phael92br@gmail.com?subject=Assunto%20do%20Email&body=Corpo%20da%20mensagem" target="_blank">
+                        <img src="images/mail.svg" alt="">
+                    </a>
                 </li>
                 <li class="redes_social_links">
-                    <a href="https://wa.me/5579981177541" target="_blank"><img id="whatsapp-icon" src="images/whatsapp (1).png" alt=""></a>
+                    <a href="https://wa.me/5579981177541" target="_blank">
+                        <img id="whatsapp-icon" src="images/whatsapp (1).png" alt="">
+                    </a>
                 </li>
-                
             </ul>
-            
-
         </div>
     </header>
-    <h1 id="title-section-project" style="color: rgb(236, 243, 140);">Projetos Cloud  <br><span style="text-transform: lowercase; font-size: 13px;">(portfólio em construção)</span>  <span id="">↓ </span></h1>
+
+    <h1 id="title-section-project-cloud" style="color: rgb(236, 243, 140); text-align: center;">Projetos Cloud  <br><span style="text-transform: lowercase; font-size: 13px;">(portfólio em construção)</span>  <span id="">↓ </span></h1>
     
     <section class="projects container">
         <div class="project">
@@ -62,13 +79,13 @@
                     
                 </div>    
                 <div class="buttons container">
-                    <button class="stack">GitLab CI/CD</button>
-                    <button class="stack">Terraform</button>
-                    <button class="stack">Docker</button>
-                    <button class="stack">AWS</button>
-                    <button class="stack">Linux</button>
-                    <button class="stack">Git</button>
-                    <button class="stack">Deploy Automático</button>
+                    <button style="padding: 3px;" class="stack">GitLab CI/CD</button>
+                    <button style="padding: 3px;" class="stack">Terraform</button>
+                    <button style="padding: 3px;" class="stack">Docker</button>
+                    <button style="padding: 3px;" class="stack">AWS</button>
+                    <button style="padding: 3px;" class="stack">Linux</button>
+                    <button style="padding: 3px;" class="stack">Git</button>
+                    <button style="padding: 3px;" class="stack">Deploy Automático</button>
                 </div>                
             </div>
             <a href="http://54.165.153.84" target="_blank">
@@ -241,7 +258,7 @@
         </div>
     </section>
     
-    <h1 id="title-section-project" style="color: rgb(236, 243, 140);">Projetos Desenvolvimento Web <span id="">↓ </span></h1>
+    <h1 id="title-section-project-dev" style="color: rgb(236, 243, 140);text-align: center;">Projetos Desenvolvimento Web <span id="">↓ </span></h1>
     <section class="projects container">
         
         <div class="project">
