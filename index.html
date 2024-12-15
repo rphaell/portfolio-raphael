@@ -48,6 +48,35 @@
     </header>
     <h1 id="title-section-project" style="color: rgb(236, 243, 140);">Projetos Cloud  <br><span style="text-transform: lowercase; font-size: 13px;">(portfólio em construção)</span>  <span id="">↓ </span></h1>
     
+    <section class="projects container">
+        <div class="project">
+            <div class="project-description">
+                <h1>Pipeline CI/CD com Terraform, Docker e GitLab</h1>
+                <p>
+                    Criação de uma pipeline automatizada de CI/CD utilizando Terraform, Docker e GitLab. A pipeline foi configurada no GitLab para gerenciar o deploy automatizado de um website hospedado em uma instância EC2 provisionada com Terraform. A aplicação foi encapsulada em uma imagem Docker personalizada, e a execução do contêiner foi automatizada diretamente pela pipeline. Este processo assegurou integração contínua e eficiência no deploy.
+                </p>
+                
+                <div class="buttons container">
+                    <a href="https://gitlab.com/phael92br/pipeline" target="_blank" class="button">GitLab</a>
+                    <a href="https://github.com/rphaell/pipeline" target="_blank" class="button">GitHub</a>
+                    
+                </div>    
+                <div class="buttons container">
+                    <button class="stack">GitLab CI/CD</button>
+                    <button class="stack">Terraform</button>
+                    <button class="stack">Docker</button>
+                    <button class="stack">AWS</button>
+                    <button class="stack">Linux</button>
+                    <button class="stack">Git</button>
+                    <button class="stack">Deploy Automático</button>
+                </div>                
+            </div>
+            <a href="http://54.165.153.84" target="_blank">
+                <img src="./images/projetos/pipeline.png" alt="Imagem do Projeto">
+            </a>
+        </div>
+    </section>
+
     <section class="projects container">        
         <div class="project">
             <div class="project-description">
@@ -126,6 +155,45 @@
             <a href="https://github.com/rphaell/cloudprivada" target="_blank"><img src="./images/projetos/cloud-projects//newbg2.png" alt=""></a>
         </div>
     </section>
+
+    <section class="projects container">        
+        <div class="project">
+            <div class="project-description">
+                <h1>Arquitetura de Confiabilidade e Recuperação de Desastres com AWS</h1>
+                <p>
+                    Este projeto foi desenvolvido como parte do Trabalho de Conclusão de Curso (TCC) na Escola da Nuvem, com o tema "Confiabilidade e Recuperação de Desastres".<br>
+                    A arquitetura foi planejada para garantir alta disponibilidade e resiliência em casos de falhas, utilizando duas regiões da AWS.<br>
+                    Como requisito do trabalho, consideramos um capital inicial de 10 mil dólares e um orçamento mensal de 500 dólares, definidos com o auxílio do AWS Pricing Calculator.
+                </p>
+                <p>
+                    A solução implementada é uma arquitetura de standby, onde a segunda região permanece em estado de espera com instâncias desligadas, sendo ativadas automaticamente por AWS Lambda em resposta a eventos monitorados pelo CloudWatch.<br>
+                    A configuração inclui failover gerenciado pelo Route 53, um banco de dados Aurora Global com réplicas assíncronas na segunda região e instâncias EC2 com Auto Scaling em múltiplas zonas de disponibilidade para isolamento de falhas.
+                </p>
+                <div class="buttons container">
+                    <a href="./images/projetos//auroraDR.drawio.png" target="_blank" class="button">Arquitetura</a>
+                </div>    
+                <div class="buttons container">
+                    <button class="stack">VPC</button>
+                    <button class="stack">AWS</button>
+                    <button class="stack">EC2</button>
+                    <button class="stack">Security Groups</button>
+                    <button class="stack">Lambda</button>
+                    <button class="stack">CloudWatch</button>
+                    <button class="stack">Route 53</button>
+                    <button class="stack">Aurora</button>
+                    <button class="stack">Auto Scaling</button>
+                    <button class="stack">AWS Pricing Calculator</button>
+                </div>                
+            </div>
+            <a href="./images/projetos//auroraDR.drawio.png" target="_blank">
+                <img src="./images/projetos//auroraDR.drawio.png" alt="Project VPC Architecture">
+            </a>
+            
+        </div>
+    </section>
+    
+    
+    
     
     <section class="projects container">        
         <div class="project">

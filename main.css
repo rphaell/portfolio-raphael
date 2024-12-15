@@ -366,3 +366,13 @@ header h4 {
         margin-right: auto; /* Center the description */
     }
 }
+
+
+a img {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+a img:hover {
+    transform: scale(1.05);
+}
