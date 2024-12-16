@@ -8,6 +8,10 @@
     list-style-type: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: #e3f1ff;
     background-color: black;
