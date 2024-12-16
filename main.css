@@ -356,6 +356,8 @@ header h4 {
     .stack {
         display: none;
     }
+
+    
 }
 
 @media(max-width: 1200px) {
@@ -405,4 +407,26 @@ a img {
 
 a img:hover {
     transform: scale(1.05);
+}
+
+/* Default styles for desktop and larger screens */
+.cv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .cv {
+        flex-direction: column; /* Stack the buttons vertically */
+        align-items: center; /* Center-align the buttons */
+        gap: 15px; /* Add space between buttons */
+    }
+
+    .cv-button {
+        font-size: 16px; /* Reduce font size */
+        padding: 8px 15px; /* Adjust padding for better spacing */
+    }
 }
